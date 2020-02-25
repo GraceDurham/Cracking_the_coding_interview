@@ -17,7 +17,6 @@ def is_unique(str):
 
 	return True
 
-
 print(is_unique("grace"))
 
 
