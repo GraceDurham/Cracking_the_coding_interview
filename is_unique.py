@@ -80,3 +80,18 @@ matty = "matty"
 print(is_unique(grace))
 print(is_unique(timothy))
 print(is_unique(matty))
+
+
+
+def is_unique_too(test_string):
+
+	test_str = set(test_string)
+
+	if len(test_string) == len(test_str):
+		return True
+	return False
+
+timothy = "timothy"
+grace = "grace"
+print(is_unique_too(grace))
+print(is_unique_too(timothy))
