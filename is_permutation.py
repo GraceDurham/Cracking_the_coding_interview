@@ -27,4 +27,4 @@ def is_permutation(s1, s2):
 			return False
 	return True
 
-print(is_permutation("dog", "gdd"))
+print(is_permutation("dog", "god"))
