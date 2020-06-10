@@ -2,7 +2,8 @@
 
 
 def one_away(w1, w2):
-	"""Given two strings, are they, at most, one edit away?"""
+	"""Given two strings, are they, at most, one edit away?
+	   This solution will be O(n), where n is the length of the longer word."""
 
 	# Strings length can only vary by, at most, one letter fail fast if more than 1
 	if abs(len(w1) - len(w2)) > 1:
